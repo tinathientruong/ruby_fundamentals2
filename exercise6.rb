@@ -13,9 +13,8 @@ end
 puts grocery_list.length
 
 #3. if no "bananas", output appropriate messages 
-if grocery_list.include? ("bananas")
+if grocery_list.include?("bananas")
 	puts "you don't need to pick up bananas"
-
 else 
 	puts "you need to pick up bananas"
 end 
